@@ -8,7 +8,10 @@ const App = () => {
     <div>
      <Navbar />
      <Hero />
+     <div className="container">
      <Programs />
+     </div>
+     
     </div>
   )
 }
