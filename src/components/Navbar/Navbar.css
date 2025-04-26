@@ -40,9 +40,13 @@ nav ul li:hover{
 
 }
 
-
 .btn:hover{
     background-color: bisque;
     color: black;
     transition: 0.5s ease-in-out;
+}
+
+.dark-nav{
+    background: #212EF0;
+    transition: 0.5s;
 }
