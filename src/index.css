@@ -41,3 +41,13 @@ a{
   width: 20px;
   margin-left: 10px;
 }
+
+.btn.dark-btn{
+  background: #212EA0;
+  color: #FFf;
+}
+
+.btn.dark-btn:hover{
+  background: #19248c;
+  color: #fff;
+}
