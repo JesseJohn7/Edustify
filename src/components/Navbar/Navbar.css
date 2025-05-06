@@ -47,6 +47,6 @@ nav ul li:hover{
 }
 
 .dark-nav{
-    background: #212EF0;
+    background:rgba(8,0,58,0.7);
     transition: 0.5s;
 }
