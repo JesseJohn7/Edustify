@@ -1,6 +1,8 @@
 import React, {useEffect, useState} from 'react'
+import { Link, animateScroll as scroll } from 'react-scroll';
 import '../Navbar/Navbar.css'
 import logo from '../../assets/logo.png'
+
 
 const Navbar = () => {
 
@@ -17,12 +19,12 @@ const Navbar = () => {
         <img src= {logo} alt="" className='logo' />
 
         <ul>
-            <li>Home</li>
-            <li>Programme</li>
-            <li>About Us</li>
-            <li>Campus</li>
-            <li>Testimonials</li>
-            <li> <button className='btn'>Contact Us</button></li>
+            <li> <Link to ='hero' smooth ={true} offset={0} duration={500}>Home</Link> </li>
+            <li> <Link to ='program' smooth ={true} offset={-260} duration={500}>Program</Link></li>
+            <li> <Link to ='about' smooth ={true} offset={-150} duration={500}>About</Link></li>
+            <li> <Link to ='campus' smooth ={true} offset={-260} duration={500}>Campus</Link></li>
+            <li> <Link to ='testimonials' smooth ={true} offset={-260} duration={500}>Testimonials</Link></li>
+            <li> <Link className='btn' to ='contact' smooth ={true} offset={-260} duration={500}>Contact Us</Link></li>
         </ul>
     </nav>
   )

@@ -7,7 +7,7 @@ import location_icon from '../../assets/location-icon.png'
 import white_arrow from '../../assets/white-arrow.png'
 const Contact = () => {
   return (
-    <div className='contact'>
+    <div className='contact' id="contact"> 
       <div className="contact-col">
         <h3>Send Us a Message <img src={msg_icon} alt="" className='msg-icon' /></h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid minima ipsum voluptatibus pariatur voluptatum est quam commodi adipisci exercitationem placeat facilis omnis id asperiores, mollitia neque similique rerum dicta optio.</p>
